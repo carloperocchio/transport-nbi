@@ -1832,6 +1832,7 @@ module ietf-te-topology {
       } // state
       container statistics {
         config false;
+	presence "";
         description
           "Statistics data.";
         uses statistics-per-node;
@@ -1868,6 +1869,7 @@ module ietf-te-topology {
         } // state
         container statistics {
           config false;
+	  presence "";
           description
             "Statistics data.";
           uses statistics-per-ttp;
@@ -1933,6 +1935,7 @@ module ietf-te-topology {
       } // state
       container statistics {
         config false;
+	presence "";
         description
           "Statistics data.";
         uses statistics-per-link;
